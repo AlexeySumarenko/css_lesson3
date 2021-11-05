@@ -7,7 +7,7 @@ body {
 
 #container {
     width: 720px;
-    height: 280px;
+    height: 350px;
     text-align: justify;
     background-color: #fff;
     margin:auto;
@@ -22,14 +22,14 @@ p:first-letter {
 #content {
     margin-left: 151px;
     
-    width: 566px;
+    width: 569px;
     height: 300px;
     float:left;
     background-color: #fff;
     position: absolute;
 }
 #text_content{
-    padding: 0 5px 0 5px;
+    padding: 0 10px 0 5px;
 }
 #nav {
     width: 151px;
