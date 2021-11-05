@@ -2,12 +2,13 @@ body {
     font-family: Verdana;
     font-size: 11px;
     background-color: #cccccc;
-    margin-left: 25%;
+
 }
 
 #container {
     width: 720px;
-    text-align: center;
+    height: 350px;
+    text-align: justify;
     background-color: #fff;
     margin:auto;
     
@@ -20,13 +21,15 @@ p:first-letter {
 }
 #content {
     margin-left: 200px;
-    padding-left: 5px;
+    
     width: 520px;
     height: 300px;
     float:left;
     background-color: #fff;
     position: absolute;
- 
+}
+#text_content{
+    padding: 0 5px 0 5px;
 }
 #nav {
     width: 200px;
@@ -36,8 +39,13 @@ p:first-letter {
 }
 #header {
     height: 50px;
-    width: 720px;
+   
     background-color: #b0b0b0;
+    
+}
+#text_header {
+    height: 100%;
+    padding:0.5px 0 0 40px;
 }
 ul li {
     padding-top: 10px;
@@ -57,7 +65,7 @@ a:hover {
     font-weight: bold;
     text-decoration: underline;
 }
-a:aktive {
+a:active {
     color: black;
     font-weight: bold;
     text-decoration: underline;
