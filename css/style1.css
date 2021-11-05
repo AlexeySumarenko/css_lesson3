@@ -22,14 +22,14 @@ p:first-letter {
 #content {
     margin-left: 151px;
     
-    width: 566px;
+    width: 570px;
     height: 300px;
     float:left;
     background-color: #fff;
     position: absolute;
 }
 #text_content{
-    padding: 0 7px 0 10px;
+    padding: 0 10px 0 10px;
 }
 #nav {
     width: 151px;
