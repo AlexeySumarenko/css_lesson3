@@ -6,10 +6,10 @@ body {
 }
 
 #container {
-    width: 720px;
-    height: 350px;
+    width: 770px;
+    height: 300px;
     text-align: justify;
-    background-color: #fff;
+    background-color: black;
     margin:auto;
     
 }
@@ -20,38 +20,39 @@ p:first-letter {
     font-weight: bold;
 }
 #content {
-    margin-left: 151px;
+    margin-left: 201px;
     
     width: 569px;
-    height: 300px;
+    height: 240px;
     float:left;
     background-color: #fff;
     position: absolute;
 }
 #text_content{
-    padding: 0 10px 0 5px;
+    padding: 0 10px 0 10px;
 }
 #nav {
-    width: 151px;
-    height: 300px;
+    width: 201px;
+    height: 240px;
     float:left;
     background-color: #e7e7e7;
     
 }
 #header {
-    height: 50px;
+    height: 60px;
     background-color: #b0b0b0;
     
 }
 #text_header {
     height: 100%;
-    padding:0.05px 0 0 38px;
+    padding:10px 0 0 30px;
 }
 ul  {
     margin: 0;
     padding: 0;
     list-style: none; 
 }
+
 a {
     display: block;
     width: 200px;
@@ -60,8 +61,9 @@ a {
     color:black;
     text-decoration: none;
     font-size: 12px;
-    background: url (images/rol.gif) no-repeat left bottom;
+    background: url(images/rol.gif) no-repeat left bottom;
     text-indent: 40px;
+    
 }
 a:link{
     text-decoration: none;
