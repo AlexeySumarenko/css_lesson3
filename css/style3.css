@@ -25,7 +25,8 @@ p:first-letter {
     position: absolute;
 }
 #text_content{
-    padding: 25px 10px 0 10px;
+    padding: 24px 10px 0 11px;
+    
 }
 
 #header {
@@ -49,20 +50,19 @@ ul  {
 }
 li {
     display: inline;
-    float: left;
-   
+    float: left; 
     
 }
 a {
-    padding: 0 10.4px 0 10.4px;
-    line-height: 25px;
+    padding: 0 16px 0 8.79px;
+    line-height: 24px;
     text-decoration: none;
     color:#fff;
     float:left;
     display: block;
     background-image: url(https://cdn1.savepice.ru/uploads/2021/11/7/fcdabcbcc967d13cd82b65a8485d9cfd-full.gif);
     background-repeat: repeat-x;
-    margin:0;
+    margin: 0 -4.5px 0px 0px;
 }
 a:link{
     text-decoration: none;
