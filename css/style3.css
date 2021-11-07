@@ -5,7 +5,7 @@ body {
 }
 
 #container {
-    width: 770px;
+    width: 700px;
     height: 300px;
     text-align: justify;
     background-color: black;
@@ -18,57 +18,60 @@ p:first-letter {
     font-weight: bold;
 }
 #content {
-    margin-left: 201px;
-    width: 569px;
-    height: 240px;
+    width: 700px;
+    height: 624px;
     float:left;
     background-color: #fff;
     position: absolute;
 }
 #text_content{
-    padding: 0 10px 0 10px;
+    padding: 25px 10px 0 10px;
 }
-#nav {
-    width: 201px;
-    height: 240px;
-    float:left;
-    background-color: #e7e7e7;
-}
+
 #header {
-    height: 60px;
+    height: 37px;
+    padding-top: 14px;
     background-color: #b0b0b0;
 }
 #text_header {
     height: 100%;
-    padding:10px 0 0 30px;
+    padding: 0 0 0 38px;
+}
+h1{
+    margin:0;
 }
 ul  {
     margin: 0;
     padding: 0;
-    list-style: none; 
+    width: 720px;
+    list-style: none;
+    text-transform: uppercase; 
+}
+li {
+    display: inline;
+    float: left;
+   
+    
 }
 a {
-    display: block;
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
-    color:black;
+    padding: 0 10.4px 0 10.4px;
+    line-height: 25px;
     text-decoration: none;
-    font-size: 12px;
-    background: url(rol.gif) no-repeat left bottom;
-    text-indent: 40px;
+    color:#fff;
+    float:left;
+    display: block;
+    background-image: url(nb.gif);
+    background-repeat: repeat-x;
+    margin:0;
 }
 a:link{
     text-decoration: none;
 }
 a:visited {
-    color:black;
-    text-decoration: none;
+    color:#333;
 }
 a:hover {
-    background-position: right bottom ;
-    color:white;
-    font-weight: bold;
+    color:#333;
 }
 a:active {
     color: black;
